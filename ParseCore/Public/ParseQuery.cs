@@ -899,9 +899,9 @@ namespace Parse {
 
     private void EnsureNotInstallationQuery() {
       // The ParseInstallation class is not accessible from this project; using string literal.
-      if (className.Equals("_Installation")) {
-        throw new InvalidOperationException("Cannot directly query the Installation class.");
-      }
+      //if (className.Equals("_Installation")) {
+      //  throw new InvalidOperationException("Cannot directly query the Installation class.");
+      //}
     }
 
     /// <summary>
